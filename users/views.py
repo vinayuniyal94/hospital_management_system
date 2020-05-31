@@ -6,7 +6,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def loginPage(request):
-    return render(request, '/home/vinay/Documents/PROJECT/hospital_managemet_system/users/templates/login.html')
+    return render(request, 'login.html')
 
 
 def login_view(request):
@@ -23,14 +23,14 @@ def login_view(request):
     if (userType == "doctor"):
         if user is not None:
             login(request, user)
-            return render(request, '/home/vinay/Documents/PROJECT/hospital_managemet_system/users/templates/loginDashboard_doctor.html')
+            return render(request, 'loginDashboard_doctor.html')
         else:
-            return render(request, "/home/vinay/Documents/PROJECT/hospital_managemet_system/users/templates/login.html", {"message": "Invalid Credentials"})
+            return render(request, "login.html", {"message": "Invalid Credentials"})
 
     else:
         if user is not None:
             login(request, user)
-            return render(request, '/home/vinay/Documents/PROJECT/hospital_managemet_system/users/templates/loginDashboard_patient.html', context)
+            return render(request, 'loginDashboard_patient.html', context)
         else:
             return render(request, "user/login.html", {"message": "Invalid Credentials"})
 

@@ -1,0 +1,29 @@
+{% extends "/home/vinay/Documents/PROJECT/hospital_managemet_system/patient/templates/base.html" %}
+{% block body %}
+  <br><br>
+  <div class="row">
+    <div class="container">
+      <div class="card">
+        <br><br>
+        <div class="container">
+          <h5>Medical History</h5>
+          <table>
+            <tbody>
+              {% for i in data %}
+              <br>
+                <label for="date">Date</label>
+                <p id="date">{{i.date}}</p>
+                <label for="symptoms">Symptoms</label>
+                <p id="symptoms">{{i.symptoms}}</p>
+                <label for="prescription">Prescription</label>
+                <p id="prescription">{{i.prescription}}</p>
+              <br>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <br><br>
+      </div>
+    </div>
+  </div>
+{% endblock body %}

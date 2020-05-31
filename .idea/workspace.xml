@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25f9d0dc-32ef-43ef-bcf1-ef734379e65b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1cRsd714NSLvcwUhIohOtcTGDoo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25f9d0dc-32ef-43ef-bcf1-ef734379e65b" name="Default Changelist" comment="" />
+      <created>1590502825453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590502825453</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590643184227">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1590643184227" />
+    <state x="416" y="114" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590670812094">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="114" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1590670812094" />
+    <state x="423" y="227" width="510" height="344" key="#com.intellij.tools.ToolEditorDialog" timestamp="1590643154301">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="423" y="227" width="510" height="344" key="#com.intellij.tools.ToolEditorDialog/0.27.1366.741@0.27.1366.741" timestamp="1590643154301" />
+    <state x="172" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1590643233153">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="27" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1590643233153" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+{% extends "/home/vinay/Documents/PROJECT/hospital_managemet_system/users/templates/base.html" %}
+{% block body %}
+<div class="container">
+  <br>
+  <div class="card">
+    <br>
+    <div class="row">
+      <form action="{% url  'users:login' %}" method="post">
+        {% csrf_token %}
+        <div class="container">
+          <div class="row">
+            <h4>User Login</h4>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <input type="text" id="username" name="username"  class="validate" placeholder="Username">
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <input type="password" id="password" name="password" class="validate" placeholder="Password">
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <p>Login as</p>
+            <p>
+              <input name="userType" type="radio" id="userType1" value="doctor" class="with-gap">
+              <label for="userType1">Doctor</label>
+            </p>
+            <p>
+              <input name="userType" type="radio" id="userType2" value="patient" class="with-gap">
+              <label for="userType2">Patient</label>
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="container">
+          <div class="row">
+            <input class="waves-effect waves-light btn" type="submit" name="Login" value="Login"/>
+          </div>
+        </div>
+        <br>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock body %}

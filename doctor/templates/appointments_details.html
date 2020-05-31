@@ -1,0 +1,36 @@
+{% extends "/home/vinay/Documents/PROJECT/hospital_managemet_system/doctor/templates/base.html" %}
+{% block body %}
+  <br><br><br>
+    <div class="row">
+      <div class="container">
+        <div class="card">
+          <br>
+          <div class="container">
+            <h5>Your Appointment's</h5>
+            <br>
+            <table>
+              <thead>
+                <th>S.no</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Consulting Doctor</th>
+                <th>Patient Name</th>
+              </thead>
+              <tbody>
+                {% for i in data %}
+                <tr>
+                  <td>{{i.id}}</td>
+                  <td>{{i.date}}</td>
+                  <td>{{i.time}}</td>
+                  <td>{{i.consulting_doc}}</td>
+                  <td>{{i.patient_name}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+{% endblock  %}
